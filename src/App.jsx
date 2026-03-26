@@ -19,7 +19,7 @@ function Prisberegner() {
   const total = SETUP + urlOmkostning
 
   return (
-    <div style={{ fontFamily: "'Inter', sans-serif", backgroundColor: '#f9f9fb', display: 'flex', justifyContent: 'center', padding: '40px 20px' }}>
+    <div style={{ fontFamily: "'Inter', sans-serif", backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', padding: '40px 20px' }}>
       <div style={{ background: 'transparent', borderRadius: '12px', padding: '30px 40px', maxWidth: '700px', width: '100%', textAlign: 'center' }}>
         <div style={{ backgroundColor: '#f0f0ff', width: '56px', height: '56px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px', margin: '0 auto 20px' }}>
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4444cc" strokeWidth="2">
