@@ -1,115 +1,116 @@
 .App {
   all: revert;
-  font-family: 'Inter', sans-serif;
-  background-color: #f9f9fb;
-  display: flex;
-  justify-content: center;
-  padding: 40px 20px;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #f9f9fb !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 40px 20px !important;
 }
 
 .prisberegner-container {
-  background: transparent;
-  border-radius: 12px;
-  padding: 30px 40px;
-  max-width: 700px;
-  width: 100%;
-  text-align: center;
+  background: transparent !important;
+  border-radius: 12px !important;
+  padding: 30px 40px !important;
+  max-width: 700px !important;
+  width: 100% !important;
+  text-align: center !important;
 }
 
 .icon-wrapper {
-  background-color: #f0f0ff;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  margin: 0 auto 20px;
+  background-color: #f0f0ff !important;
+  width: 56px !important;
+  height: 56px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 12px !important;
+  margin: 0 auto 20px !important;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #111;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+  color: #111 !important;
 }
 
 p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 24px;
+  font-size: 14px !important;
+  color: #666 !important;
+  margin-bottom: 24px !important;
 }
 
 .prisberegner-box {
-  background-color: #fefefe;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: left;
-  box-shadow: inset 0 0 0 1px #eaeaea;
+  background-color: #fefefe !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  text-align: left !important;
+  box-shadow: inset 0 0 0 1px #eaeaea !important;
+  display: block !important;
 }
 
 .input-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 16px !important;
 }
 
 .input-row input[type="number"] {
-  width: 80px;
-  padding: 6px 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
+  width: 80px !important;
+  padding: 6px 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+  font-size: 14px !important;
 }
 
 input[type="range"] {
-  width: 100%;
-  margin: 12px 0;
+  width: 100% !important;
+  margin: 12px 0 !important;
 }
 
 .range-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  color: #999;
-  margin-bottom: 16px;
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 12px !important;
+  color: #999 !important;
+  margin-bottom: 16px !important;
 }
 
 hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 16px 0;
+  border: none !important;
+  border-top: 1px solid #eee !important;
+  margin: 16px 0 !important;
 }
 
 .pris-linje {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  margin-bottom: 8px;
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 14px !important;
+  margin-bottom: 8px !important;
 }
 
 .pris-label {
-  color: #333;
+  color: #333 !important;
 }
 
 .pris-value {
-  color: #333;
-  font-weight: 500;
+  color: #333 !important;
+  font-weight: 500 !important;
 }
 
 .total-row {
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 600;
-  color: #2d2d30;
-  margin-top: 12px;
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #2d2d30 !important;
+  margin-top: 12px !important;
 }
 
 .tax-note {
-  font-size: 12px;
-  color: #999;
-  margin-top: 4px;
-  text-align: right;
+  font-size: 12px !important;
+  color: #999 !important;
+  margin-top: 4px !important;
+  text-align: right !important;
 }
