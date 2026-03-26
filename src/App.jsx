@@ -53,7 +53,17 @@ function Prisberegner() {
             step="1"
             value={antal}
             onChange={e => setAntal(parseInt(e.target.value))}
-            style={{ width: '100%', margin: '12px 0' }}
+            style={{
+              width: '100%',
+              margin: '12px 0',
+              WebkitAppearance: 'none',
+              appearance: 'none',
+              height: '4px',
+              borderRadius: '4px',
+              outline: 'none',
+              border: 'none',
+              background: `linear-gradient(to right, #4444cc ${(antal / 500) * 100}%, #e5e7eb ${(antal / 500) * 100}%)`
+            }}
           />
 
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: '#999', marginBottom: '16px' }}>
