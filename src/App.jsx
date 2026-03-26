@@ -67,7 +67,7 @@ function Prisberegner() {
           <PrisLinje label="Opsætning (engangsbetaling)" value="2.500 DKK" />
           <PrisLinje label={`${antal} URLs × ${rate} DKK`} value={`${urlOmkostning.toLocaleString('da-DK')} DKK`} />
 
-          <hr style={{ border: 'none', borderTop: '1px solid #eee', margin: '16px 0' }} />
+          <hr style={{ border: 'none', borderTop: '1px solid #eee', margin: '15px 0' }} />
 
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '18px', fontWeight: '600', color: '#2d2d30', marginTop: '12px' }}>
             <span>Total</span>
