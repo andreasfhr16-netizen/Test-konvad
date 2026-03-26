@@ -1,6 +1,5 @@
-/* App.css */
-
 .App {
+  all: revert;
   font-family: 'Inter', sans-serif;
   background-color: #f9f9fb;
   display: flex;
@@ -9,12 +8,11 @@
 }
 
 .prisberegner-container {
-  background:transparent;
+  background: transparent;
   border-radius: 12px;
   padding: 30px 40px;
   max-width: 700px;
   width: 100%;
- 
   text-align: center;
 }
 
